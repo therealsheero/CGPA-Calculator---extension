@@ -20,19 +20,9 @@ A retro-style, semester-wise CGPA calculator that makes tracking your academic j
 
 ---
 
-## 📷 Screenshots
+## 📷 Demo
 
-**Home Page**
-![Home](assets/screenshot-home.png)
-
-**Add Subjects Page**
-![Input](assets/screenshot-input.png)
-
-**CGPA Result Display**
-![Result](assets/screenshot-result.png)
-
-**Progress Chart**
-![Chart](assets/screenshot-chart.png)
+[![Watch the demo](assets/demo.gif)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 ---
 
