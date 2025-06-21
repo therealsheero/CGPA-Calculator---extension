@@ -1,126 +1,103 @@
-Here’s a **catchy, stylish, and image-ready `README.md`** file for your CGPA Calculator Chrome Extension project on GitHub:
 
 ---
 
-### ✅ `README.md`
+# 🎓 CGPA Calculator Chrome Extension
 
-````markdown
-# 🎓 CGPA Calculator Chrome Extension  
-A retro-style, semester-wise CGPA calculator that makes calculating your academic progress visually fun, interactive, and rewarding — complete with charts, confetti, and 8-bit vibes!
-
-![Banner](assets/readme-banner.png)
+A retro-style, semester-wise CGPA calculator that makes tracking your academic journey exciting and interactive. Designed with pixel animated visuals, and modern features to help students calculate and visualize their performance.
 
 ---
 
 ## 🚀 Features
 
-- 🎮 **Retro Pixel UI** inspired by classic games  
-- 🧠 **Semester-wise CGPA Calculation** with editable inputs  
-- 📈 **Progress Chart** to visualize your CGPA growth  
-- 🎉 **Confetti Celebration** when CGPA is calculated  
-- 🔁 **Edit & Reset Options** with intuitive flow  
-- 📸 **Responsive GIFs & Pixel Icons** to bring life to learning  
-- 🔒 **Offline-Ready** — no internet required to use!
+* 🎮 **Retro Pixel UI**: Inspired by classic arcade games.
+* 📚 **Semester-wise CGPA Input**: Add subjects and grades per semester.
+* 🧮 **Dynamic CGPA Calculation**: Accurate calculation based on credits and grades.
+* 📊 **Visual Progress Chart**: See your CGPA trend over time using a line chart.
+* 🎉 **Confetti Animation**: Celebrate your progress with cheerful visuals.
+* ✏️ **Edit & Reset Support**: Go back anytime and re-edit or clear your data.
+* 🌐 **Offline-Ready**: Works fully offline after installation.
+* 🖼️ **Animated GIFs and Icons**: Fun and engaging experience throughout!
 
 ---
 
 ## 📷 Screenshots
 
-| Home Page | Input Subjects | CGPA Result | CGPA Progress |
-|----------|----------------|-------------|----------------|
-| ![Home](assets/screenshot-home.png) | ![Input](assets/screenshot-input.png) | ![Result](assets/screenshot-result.png) | ![Chart](assets/screenshot-chart.png) |
+**Home Page**
+![Home](assets/screenshot-home.png)
+
+**Add Subjects Page**
+![Input](assets/screenshot-input.png)
+
+**CGPA Result Display**
+![Result](assets/screenshot-result.png)
+
+**Progress Chart**
+![Chart](assets/screenshot-chart.png)
 
 ---
 
-## 🛠 How to Use
+## 🧠 How to Use
 
-1. **Install from Chrome Extensions (or manually load the unpacked extension).**
-2. Click the extension icon to launch it.
-3. Enter the number of semesters.
-4. For each semester:
-   - Enter number of subjects
-   - Fill in subject credits and grades
-5. Click **"Calculate CGPA"** 🎯
-6. Click **"Progress Report"** to view your CGPA chart 📊
-7. Use **"Go Back"** or **"Clear All"** for edits and resets.
+1. Click on the extension icon from your Chrome toolbar.
+2. Enter the number of semesters.
+3. For each semester:
 
----
-
-## 🎓 Grading Scale
-
-| Grade | Points |
-|-------|--------|
-| O     | 10     |
-| A+    | 10     |
-| A     | 9      |
-| B+    | 8      |
-| B     | 7      |
-| C+    | 6      |
-| C     | 5      |
-| D     | 4      |
-| F     | 0      |
+   * Enter the number of subjects.
+   * Enter the credit and grade for each subject.
+4. Click on **"Calculate CGPA"** to see your score.
+5. Click on **"Progress Report"** to view your CGPA chart.
+6. Use **"Go Back"** to edit or **"Clear All"** to reset your inputs.
 
 ---
 
-## 📁 Installation for Developers
+## 🎓 Grading Scale (as per university format)
 
-```bash
-git clone https://github.com/YOUR_USERNAME/cgpa-calculator-extension.git
-cd cgpa-calculator-extension
-````
-
-### Load Extension in Chrome:
-
-1. Go to `chrome://extensions/`
-2. Enable **Developer Mode**
-3. Click **"Load unpacked"**
-4. Select your project folder
-5. Launch and enjoy!
-
----
-
-## ✨ Tech Stack
-
-* HTML5 + CSS3 + JavaScript
-* [Chart.js](https://www.chartjs.org/) for plotting
-* [Canvas Confetti](https://www.kirilv.com/canvas-confetti/) for celebration
-* Pixel GIFs & vector art for UI polish
+| Grade | Grade Point |
+| ----- | ----------- |
+| O     | 10          |
+| A+    | 10          |
+| A     | 9           |
+| B+    | 8           |
+| B     | 7           |
+| C+    | 6           |
+| C     | 5           |
+| D     | 4           |
+| F     | 0           |
 
 ---
 
-## 🧠 Inspiration
+## 📁 How to Install (Developer Mode)
 
-This tool was built with love by an AI/ML enthusiast to make academic tools more **fun**, **visual**, and **memorable**. Whether you’re tracking your journey or just curious — it’s built to spark joy in learning.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🙌 Contribute or Feedback
-
-Feel free to fork, raise issues, or suggest features. Contributions welcome!
-✨ Let’s gamify education together!
-
-```
+1. Clone or download the repository.
+2. Go to `chrome://extensions/` in your Chrome browser.
+3. Enable **Developer Mode** from the top-right.
+4. Click **Load unpacked**.
+5. Select your project folder.
+6. Launch the extension and start calculating!
 
 ---
 
-### 📌 What You Need to Do:
+## 💻 Tech Stack
 
-1. Replace all placeholder image paths like:
-   - `assets/readme-banner.png`
-   - `assets/screenshot-home.png`
-   - `assets/screenshot-input.png`
-   - `assets/screenshot-result.png`
-   - `assets/screenshot-chart.png`
+* HTML5
+* CSS3
+* JavaScript
+* Chart.js (for CGPA graph)
+* Canvas Confetti (for celebration effect)
 
-   👉 with actual screenshots/GIFs and a banner image inside your `assets/` folder.
+---
 
-2. If you want, I can generate a matching `LICENSE` file (MIT), `manifest.json`, or sample screenshots layout.
+## 💡 Inspiration
 
-Let me know if you'd like help creating the images or adding GIF preview in the README!
-```
+Built by an AIML student who wanted to transform boring academic tools into something fun and memorable. This project aims to make grade tracking a joyful experience, not a chore.
+
+---
+
+## 🙌 Want to Contribute?
+
+Feel free to fork this repository, create pull requests, or open issues for bugs, suggestions, or feature requests. Feedback is always welcome!
+
+Let's gamify education together! 🎮📘✨
+
+---
+
