@@ -1,0 +1,135 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CGPA Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    html, body {
+      width: 420px;
+      height: 500px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="main">
+    <div class="header">
+        <img id="banner" src="canva2.png" alt="CGPA Banner" />
+    </div>
+
+     <-- Page 1: Input semesters --> 
+    <!-- <div id="page1" class="container">
+      <label>Number of Semesters:</label>
+      <input type="number" id="numSemesters" min="1" />
+      <button id="startBtn">Start</button>
+      <div class="bottom-row">
+        <img src="assets/comg.gif" alt="GIF 2" />
+        <img src="assets/man3.gif" alt="GIF 3" />
+        <img src="assets/mailbox.png" alt="Image 3" />
+      </div>
+    </div>
+
+    <-- Page 2: Add Subjects and Calculate --> 
+    <!-- <div id="page2" class="container" style="display: none;">
+      <div id="inputSection"></div>
+      <button id="calcBtn" style="display:none;">Calculate CGPA</button>
+      <h3 id="result"></h3>
+
+      <div class="action-buttons">
+        <button id="editBtn">Go back</button>
+        <button id="clearBtn">Clear All</button>
+      </div>
+
+      <img src="Key.png" alt="Bottom Image" class="bottom-image" />
+      <div class="bottom2-row">
+        <img src="assets/bio.png" alt="GIF 2" />
+        <img src="assets/man.gif" alt="GIF 3" />
+        <img src="assets/book.png" alt="Image 3" />
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>  -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CGPA Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    html, body {
+      width: 420px;
+      height: 500px;
+      margin: 0;
+      padding: 0;
+      overflow: auto !important;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main">
+    <div class="header">
+      <img id="banner" src="canva2.png" alt="CGPA Banner" />
+    </div>
+
+    <!-- Page 1: Enter number of semesters -->
+    <div id="page1" class="container">
+      <label>Number of Semesters:</label>
+      <input type="number" id="numSemesters" min="1" />
+      <button id="startBtn">Start</button>
+      <div class="bottom-row">
+        <img src="assets/comg.gif" alt="GIF 1" />
+        <img src="assets/jump.gif" alt="GIF 2" />
+        <img src="assets/mailbox.png" alt="Image 3" />
+      </div>
+    </div>
+
+    <!-- Page 2: Subject inputs and CGPA calculation -->
+    <div id="page2" class="container" style="display: none;">
+      <div id="inputSection"></div>
+      <button id="calcBtn" style="display:none;">Calculate CGPA</button>
+      <h3 id="result"></h3>
+
+      <div class="action-buttons">
+        <button id="editBtn">Go Back</button>
+        <button id="clearBtn">Clear All</button>
+      </div>
+
+      <button id="progressBtn">Progress Report</button>
+
+      <img src="Key.png" alt="Bottom Image" class="bottom-image" />
+      <div class="bottom2-row">
+        <img src="assets/cycle.gif" alt="GIF 3" />
+      </div>
+    </div>
+
+    <!-- Page 3: Chart -->
+    <div id="page3" class="container" style="display: none;">
+      <canvas id="cgpaChart" width="300" height="150" style="margin-top: 15px;"></canvas>
+      <button id="backBtn">Go Back</button>
+      <div class="bottom3-row">
+        <img src="assets/doc.gif" alt="GIF 1" />
+        <img src="assets/q2.png" alt="Image 1" />
+      </div>
+    </div>
+  </div>
+
+  <script src="js/chart.min.js"></script>
+  <script src="js/confetti.browser.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
+

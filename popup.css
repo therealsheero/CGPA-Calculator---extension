@@ -1,0 +1,231 @@
+/* Layout */
+html, body {
+  width: 420px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  overflow: auto !important;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  color: black;
+  background-image: url('bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.main {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Banner/Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#banner {
+  width: 200%;
+  max-height: 185px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+/* Container and Inputs */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+input, select, button {
+  font-family: 'Press Start 2P', cursive;
+  background: white;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 5px 0;
+  min-width: 100px;
+  max-width: 200px;
+  text-align: center;
+}
+
+select.grade {
+  width: 110px;
+}
+
+/* Buttons */
+button {
+  background-color: #a44;
+  color: white;
+  padding: 8px 12px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d66;
+  transform: scale(1.05);
+}
+
+#calcBtn {
+  background-color: #1f905f;
+  color: #fff;
+}
+
+#calcBtn:hover {
+  background-color: rgb(70, 189, 100);
+}
+
+#editBtn, #clearBtn, #progressBtn, #backBtn {
+  font-size: 10px;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#editBtn {
+  background-color: #444;
+  color: white;
+}
+
+#clearBtn {
+  background-color: #a44;
+  color: white;
+}
+
+#progressBtn {
+  background-color: #a44;
+  color: white;
+}
+
+#backBtn {
+  background-color: #444;
+  color: white;
+}
+
+#editBtn:hover, #backBtn:hover {
+  background-color: #666;
+  transform: scale(1.05);
+}
+
+#clearBtn:hover, #progressBtn:hover {
+  background-color: #d66;
+  transform: scale(1.05);
+}
+
+/* Grade Input Colors */
+.grade {
+  color: black;
+}
+
+.grade[value="O"], .grade[value="A+"] {
+  color: #00ff00;
+}
+
+.grade[value="A"] {
+  color: #1e90ff;
+}
+
+.grade[value="B+"] {
+  color: #ffa500;
+}
+
+.grade[value="B"] {
+  color: #ff8c00;
+}
+
+.grade[value="C+"] {
+  color: #ff69b4;
+}
+
+.grade[value="C"], .grade[value="D"] {
+  color: #ff0000;
+}
+
+.grade[value="F"] {
+  color: #000000;
+}
+
+.grade[value="AU"], .grade[value="W"], .grade[value="X"], .grade[value="I"] {
+  color: #888;
+  font-style: italic;
+}
+
+/* Input Sections */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+#inputSection > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Result Display */
+#result {
+  margin-top: 15px;
+  color: white;
+}
+
+/* Chart and Images */
+#cgpaChart {
+  margin-top: 20px;
+  background: white;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.bottom-row, .bottom2-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.bottom-row img, .bottom2-row img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+.bottom2-row img {
+  height: 150px;
+}
+
+.bottom3-row img {
+  height: 150px;
+  width: auto;
+  object-fit: contain;
+}
+
+.bottom-image {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+}
