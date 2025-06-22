@@ -1,93 +1,127 @@
-
 ---
 
 # 🎓 CGPA Calculator Chrome Extension
 
-A retro-style, semester-wise CGPA calculator that makes tracking your academic journey exciting and interactive. Designed with pixel animated visuals, and modern features to help students calculate and visualize their performance.
+A retro-style, semester-wise CGPA & Percentage calculator designed to make academic tracking engaging. Powered by animated visuals and flexible grading systems, it's perfect for students who want an interactive way to manage their grades.
 
 ---
 
 ## 🚀 Features
 
 * 🎮 **Retro Pixel UI**: Inspired by classic arcade games.
-* 📚 **Semester-wise CGPA Input**: Add subjects and grades per semester.
-* 🧮 **Dynamic CGPA Calculation**: Accurate calculation based on credits and grades.
-* 📊 **Visual Progress Chart**: See your CGPA trend over time using a line chart.
-* 🎉 **Confetti Animation**: Celebrate your progress with cheerful visuals.
-* ✏️ **Edit & Reset Support**: Go back anytime and re-edit or clear your data.
-* 🌐 **Offline-Ready**: Works fully offline after installation.
-* 🖼️ **Animated GIFs and Icons**: Fun and engaging experience throughout!
+* 📚 **Multi-Grading System Support**:
+
+  * ✅ 10-Point CGPA System (Indian Universities)
+  * ✅ 4-Point GPA System (US Universities)
+  * ✅ Percentage-Based Weighted Calculator
+* 🧮 **Dynamic Subject & Semester Input**: Add custom number of subjects per semester.
+* 📊 **Visual Progress Charts**: GPA/CGPA/Percentage over semesters via interactive line charts.
+* 📝 **PDF Report Generation**: Download your full GPA or percentage report with stats + chart.
+* 🔁 **Edit / Go Back / Clear**: Revise entries or reset inputs anytime.
+* 🌐 **Offline-Ready**: Works completely offline after installation.
+* 🖼️ **Animated GIFs & Icons**: Fun, gamified experience.
 
 ---
 
 ## 📷 Demo
 
-[![Watch the demo](assets/demo.gif)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Watch the demo](assets/demo.gif)]
 
 ---
 
 ## 🧠 How to Use
 
-1. Click on the extension icon from your Chrome toolbar.
-2. Enter the number of semesters.
-3. For each semester:
+1. Launch the extension from your Chrome toolbar.
+2. Select your **grading system**:
 
-   * Enter the number of subjects.
-   * Enter the credit and grade for each subject.
-4. Click on **"Calculate CGPA"** to see your score.
-5. Click on **"Progress Report"** to view your CGPA chart.
-6. Use **"Go Back"** to edit or **"Clear All"** to reset your inputs.
+   * 📘 10-Point CGPA
+   * 🌍 4-Point GPA
+   * 🎯 Weighted Percentage
+3. Enter the number of semesters.
+4. For each semester:
+
+   * Specify subject count.
+   * Enter marks or credits & grades.
+5. Click **“Calculate”** to view GPA/CGPA or Weighted Percentage.
+6. Click **“Progress Report”** to view your chart.
+7. Use **“Download”** to save your full PDF report.
+8. Go **“Back”** or **“Clear All”** anytime to reset or edit data.
 
 ---
 
-## 🎓 Grading Scale (as per university format)
+## 🎓 Grading Scale
 
-| Grade | Grade Point |
-| ----- | ----------- |
-| O     | 10          |
-| A+    | 10          |
-| A     | 9           |
-| B+    | 8           |
-| B     | 7           |
-| C+    | 6           |
-| C     | 5           |
-| D     | 4           |
-| F     | 0           |
+### 🔟 10-Point System
+
+| Grade | Point |
+| ----- | ----- |
+| O     | 10    |
+| A+    | 10    |
+| A     | 9     |
+| B+    | 8     |
+| B     | 7     |
+| C+    | 6     |
+| C     | 5     |
+| D     | 4     |
+| F     | 0     |
+
+### 🇺🇸 4-Point System
+
+| Grade | Point |
+| ----- | ----- |
+| A+    | 4.0   |
+| A     | 4.0   |
+| A-    | 3.7   |
+| B+    | 3.3   |
+| B     | 3.0   |
+| B-    | 2.7   |
+| C+    | 2.3   |
+| C     | 2.0   |
+| C-    | 1.7   |
+| D+    | 1.3   |
+| D     | 1.0   |
+| F     | 0.0   |
+
+---
+
+## 📄 PDF Report Includes
+
+* ✅ Final CGPA / GPA / Weighted %
+* 📈 Line Chart of semester performance
+* 📋 Semester-wise breakdown
 
 ---
 
 ## 📁 How to Install (Developer Mode)
 
-1. Clone or download the repository.
-2. Go to `chrome://extensions/` in your Chrome browser.
-3. Enable **Developer Mode** from the top-right.
-4. Click **Load unpacked**.
-5. Select your project folder.
-6. Launch the extension and start calculating!
+1. Download or clone this repository.
+2. Go to `chrome://extensions/` in Chrome.
+3. Enable **Developer Mode** (top-right).
+4. Click **“Load Unpacked”** and select your project folder.
+5. Done! Click the extension icon to start using.
 
 ---
 
 ## 💻 Tech Stack
 
-* HTML5
-* CSS3
-* JavaScript
-* Chart.js (for CGPA graph)
-* Canvas Confetti (for celebration effect)
+* HTML5, CSS3, JavaScript
+* Chart.js (Progress graphs)
+* Canvas Confetti (Celebration)
+* html2pdf.js (PDF Report)
 
 ---
 
 ## 💡 Inspiration
 
-Built by an AIML student who wanted to transform boring academic tools into something fun and memorable. This project aims to make grade tracking a joyful experience, not a chore.
+Created by an AIML student to turn a mundane GPA calculator into something that brings joy. Whether you’re a university student or applying abroad, this extension makes grade tracking delightful and stress-free.
 
 ---
 
 ## 🙌 Want to Contribute?
 
-Feel free to fork this repository, create pull requests, or open issues for bugs, suggestions, or feature requests. Feedback is always welcome!
+Feel free to fork this repo, submit pull requests, or suggest new features through issues. Help us level up this academic sidekick!
 
-Let's gamify education together! 🎮📘✨
+> **Let’s gamify education together!** 🎮📘✨
 
 ---
 
