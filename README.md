@@ -25,7 +25,7 @@ A retro-style, semester-wise CGPA & Percentage calculator designed to make acade
 
 ## 📷 Demo
 
-[![Watch the demo](assets/demo.gif)]
+[![Watch the demo](assets/demo2.gif)]
 
 ---
 
