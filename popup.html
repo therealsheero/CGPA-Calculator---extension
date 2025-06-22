@@ -1,74 +1,12 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>CGPA Calculator</title>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="popup.css">
-  <style>
-    html, body {
-      width: 420px;
-      height: 500px;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-  </style>
-</head>
-<body>
-  
-  <div class="main">
-    <div class="header">
-        <img id="banner" src="canva2.png" alt="CGPA Banner" />
-    </div>
-
-     <-- Page 1: Input semesters --> 
-    <!-- <div id="page1" class="container">
-      <label>Number of Semesters:</label>
-      <input type="number" id="numSemesters" min="1" />
-      <button id="startBtn">Start</button>
-      <div class="bottom-row">
-        <img src="assets/comg.gif" alt="GIF 2" />
-        <img src="assets/man3.gif" alt="GIF 3" />
-        <img src="assets/mailbox.png" alt="Image 3" />
-      </div>
-    </div>
-
-    <-- Page 2: Add Subjects and Calculate --> 
-    <!-- <div id="page2" class="container" style="display: none;">
-      <div id="inputSection"></div>
-      <button id="calcBtn" style="display:none;">Calculate CGPA</button>
-      <h3 id="result"></h3>
-
-      <div class="action-buttons">
-        <button id="editBtn">Go back</button>
-        <button id="clearBtn">Clear All</button>
-      </div>
-
-      <img src="Key.png" alt="Bottom Image" class="bottom-image" />
-      <div class="bottom2-row">
-        <img src="assets/bio.png" alt="GIF 2" />
-        <img src="assets/man.gif" alt="GIF 3" />
-        <img src="assets/book.png" alt="Image 3" />
-      </div>
-    </div>
-  </div>
-
-  <script src="popup.js"></script>
-</body>
-</html>  -->
-
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
+  
   <meta charset="UTF-8">
   <title>CGPA Calculator</title>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="popup.css">
-  <style>
+<style>
     html, body {
       width: 420px;
       height: 500px;
@@ -76,59 +14,130 @@
       padding: 0;
       overflow: auto !important;
     }
-  </style>
+</style>
 </head>
 <body>
-
   <div class="main">
     <div class="header">
       <img id="banner" src="canva2.png" alt="CGPA Banner" />
     </div>
 
-    <!-- Page 1: Enter number of semesters -->
+    <!-- Page 1 -->
     <div id="page1" class="container">
+      <label for="gradingSystem">Choose Grading System:</label>
+      <select id="gradingSystem">
+        <option value="10">10-point</option>
+        <option value="4">4-point</option>
+        <option value = "percentage"> Weighted Average Percentage</option>
+      </select>
       <label>Number of Semesters:</label>
       <input type="number" id="numSemesters" min="1" />
       <button id="startBtn">Start</button>
       <div class="bottom-row">
-        <img src="assets/comg.gif" alt="GIF 1" />
-        <img src="assets/jump.gif" alt="GIF 2" />
+        <img src="assets/comg.gif" alt="GIF 2" />
+        <img src="assets/jump.gif" alt="GIF 3" />
         <img src="assets/mailbox.png" alt="Image 3" />
       </div>
     </div>
 
-    <!-- Page 2: Subject inputs and CGPA calculation -->
+    <!-- Page 2 -->
     <div id="page2" class="container" style="display: none;">
       <div id="inputSection"></div>
       <button id="calcBtn" style="display:none;">Calculate CGPA</button>
+      <button id="convertBtn10" style="display:none;">Convert to Percentage</button>
+      <p id="percentage10" style="font-weight: bold;"></p>
       <h3 id="result"></h3>
-
       <div class="action-buttons">
         <button id="editBtn">Go Back</button>
         <button id="clearBtn">Clear All</button>
       </div>
-
       <button id="progressBtn">Progress Report</button>
-
       <img src="Key.png" alt="Bottom Image" class="bottom-image" />
       <div class="bottom2-row">
         <img src="assets/cycle.gif" alt="GIF 3" />
       </div>
     </div>
 
-    <!-- Page 3: Chart -->
+    <!-- Page 3 -->
     <div id="page3" class="container" style="display: none;">
       <canvas id="cgpaChart" width="300" height="150" style="margin-top: 15px;"></canvas>
+      <h3 id="finalCGPAReportText" style="display: none;"></h3>
+      <ul id="sgpaList" style="display: none;"></ul>
+      <button id="downloadBtn">Download Report</button>
       <button id="backBtn">Go Back</button>
       <div class="bottom3-row">
         <img src="assets/doc.gif" alt="GIF 1" />
         <img src="assets/q2.png" alt="Image 1" />
       </div>
     </div>
+
+    <!-- Page 4: 4-point GPA Input -->
+    <div id="page4" class="container" style="display: none;">
+      <div id="gpa4Inputs"></div>
+
+      <button id="calcBtn4">Calculate GPA</button>
+      <button id="convertBtn4" style="display:none;">Convert to Percentage</button>
+      <p id="percentage4" style="font-weight: bold;"></p>
+
+      <h3 id="gpa4Result"></h3>
+      <div class="action-buttons">
+        <button id="goBackBtn4">Go Back</button>
+        <button id="clearBtn4">Clear All</button>
+      </div>
+      
+      <button id="progressBtn4">Progress Report</button>
+      <img src="assets/key2.png" alt="Bottom Image" class="bottom-image" />
+        <div class="bottom2-row">
+          <img src="assets/cycle.gif" alt="GIF 3" />
+      </div>
+    </div>
+
+    <!-- Page 5: 4-point GPA Chart -->
+    <div id="page5" class="container" style="display: none;">
+      <canvas id="cgpaChart4" width="300" height="150" style="margin-top: 15px;"></canvas>
+      <h3 id="finalCGPAReportText4" style="display: none;"></h3>
+      <ul id="sgpaList4" style = "display: none;"></ul>
+      <button id="downloadBtn4">Download Report</button>
+      <button id="backBtn4">Go Back</button>
+      <div class="bottom3-row">
+        <img src="assets/doc.gif" alt="GIF 4" />
+        <img src="assets/q2.png" alt="Image 4" />
+      </div>
+    </div>
+    <!-- Page 6: Weighted Average Percentage Input -->
+    <div id="page6" class="container" style="display: none;">
+      <div id="percentageInputs"></div>
+      <button id="calcBtn6">Calculate Percentage</button>
+      <h3 id="percentageResult"></h3>
+      <div class="action-buttons">
+        <button id="goBackBtn6">Go Back</button>
+        <button id="clearBtn6">Clear All</button>
+      </div>
+      <button id="progressBtn6">Progress Report</button>
+      <div class="bottom2-row">
+          <img src="assets/cycle.gif" alt="GIF 3" />
+      </div>
+    </div>
+
+    <!-- Page 7: Weighted Percentage Progress Report -->
+    <div id="page7" class="container" style="display: none;">
+      
+      <canvas id="percentageChart" width="300" height="150" style="margin-top: 15px;"></canvas>
+      <h3 id="finalPercentageReportText" style="display: none;"></h3>
+      <ul id="percentageList" style="display: none;"></ul>
+      <button id="downloadBtn6">Download Report</button>
+      <button id="backBtn6">Go Back</button>
+      <div class="bottom3-row">
+        <img src="assets/doc.gif" alt="GIF 4" />
+        <img src="assets/q2.png" alt="Image 4" />
+      </div>
+    </div>
+
   </div>
 
   <script src="js/chart.min.js"></script>
   <script src="js/confetti.browser.min.js"></script>
+  <script src="js/html2pdf.bundle.min.js"></script>
   <script src="popup.js"></script>
 </body>
 </html>

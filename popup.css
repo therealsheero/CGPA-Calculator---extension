@@ -112,8 +112,19 @@ button:hover {
   background-color: #a44;
   color: white;
 }
-
+#clearBtn4 {
+  background-color: #a44;
+  color: white;
+}
+#clearBtn4:hover, #progressBtn4:hover {
+  background-color: #d66;
+  transform: scale(1.05);
+}
 #progressBtn {
+  background-color: #a44;
+  color: white;
+}
+#progressBtn4 {
   background-color: #a44;
   color: white;
 }
@@ -130,6 +141,43 @@ button:hover {
 
 #clearBtn:hover, #progressBtn:hover {
   background-color: #d66;
+  transform: scale(1.05);
+}
+
+#goBackBtn4 {
+  background-color: #444;
+  color: white;
+}
+#backBtn4:hover{
+  background-color: #666;
+  transform: scale(1.05);
+}
+#backBtn4 {
+  background-color: #444;
+  color: white;
+}
+#goBackBtn4:hover{
+  background-color: #666;
+  transform: scale(1.05);
+}
+
+
+
+
+#goBackBtn6 {
+  background-color: #444;
+  color: white;
+}
+#backBtn6:hover{
+  background-color: #666;
+  transform: scale(1.05);
+}
+#backBtn6 {
+  background-color: #444;
+  color: white;
+}
+#goBackBtn6:hover{
+  background-color: #666;
   transform: scale(1.05);
 }
 
@@ -198,6 +246,21 @@ label {
   padding: 10px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
+#cgpaChart4 {
+  margin-top: 20px;
+  background: white;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+#percentageChart {
+  margin-top: 20px;
+  background: white;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
 
 .bottom-row, .bottom2-row {
   display: flex;
@@ -229,3 +292,12 @@ label {
   height: auto;
   margin-top: 20px;
 }
+
+.semester-block {
+  margin-bottom: 20px;
+}
+.gpa4-entry {
+  margin-bottom: 10px;
+}
+
+
