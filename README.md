@@ -47,6 +47,7 @@ A retro-style, semester-wise CGPA & Percentage calculator designed to make acade
 6. Click **“Progress Report”** to view your chart.
 7. Use **“Download”** to save your full PDF report.
 8. Go **“Back”** or **“Clear All”** anytime to reset or edit data.
+9. Click **"Convert to Percntage"** to convert GPA into percentage.
 
 ---
 
@@ -106,9 +107,9 @@ A retro-style, semester-wise CGPA & Percentage calculator designed to make acade
 ## 💻 Tech Stack
 
 * HTML5, CSS3, JavaScript
-* Chart.js (Progress graphs)
-* Canvas Confetti (Celebration)
-* html2pdf.js (PDF Report)
+* Chart.js  - Progress Chart
+* Canvas Confetti 
+* html2pdf.js  - Progress Report
 
 ---
 
