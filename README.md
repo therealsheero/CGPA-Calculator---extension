@@ -15,6 +15,7 @@ A retro-style, semester-wise CGPA & Percentage calculator designed to make acade
   * ✅ 4-Point GPA System (US Universities)
   * ✅ Percentage-Based Weighted Calculator
 * 🧮 **Dynamic Subject & Semester Input**: Add custom number of subjects per semester.
+* 🟰 **Convert to Percentage**: Convert your GPA into percentage easily.
 * 📊 **Visual Progress Charts**: GPA/CGPA/Percentage over semesters via interactive line charts.
 * 📝 **PDF Report Generation**: Download your full GPA or percentage report with stats + chart.
 * 🔁 **Edit / Go Back / Clear**: Revise entries or reset inputs anytime.
