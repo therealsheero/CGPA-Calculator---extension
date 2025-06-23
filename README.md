@@ -51,9 +51,86 @@ A retro-style, semester-wise CGPA & Percentage calculator designed to make acade
 
 ---
 
-## 🎓 Grading Scale
+## 📘 CGPA / GPA Calculation & Conversion Formulas
 
-### 🔟 10-Point System
+---
+
+### 🔟 10-Point CGPA Calculation
+
+**Formula:**
+CGPA (10-point) = (Σ (Grade Point × Credit)) / (Σ Credits)
+
+**Example:**
+Subjects:
+
+* Sub1: Grade = A (9), Credit = 4
+* Sub2: Grade = B+ (8), Credit = 3
+* Sub3: Grade = A+ (10), Credit = 3
+
+CGPA = \[(9×4) + (8×3) + (10×3)] / (4+3+3)
+\= (36 + 24 + 30) / 10 = 90 / 10 = **9.0**
+
+---
+
+### US 4-Point GPA Calculation
+
+**Formula:**
+GPA (4-point) = (Σ (Grade Point × Credit)) / (Σ Credits)
+
+**Example:**
+Subjects:
+
+* Sub1: Grade = A (4.0), Credit = 3
+* Sub2: Grade = B+ (3.3), Credit = 3
+* Sub3: Grade = C (2.0), Credit = 4
+
+GPA = \[(4.0×3) + (3.3×3) + (2.0×4)] / (3+3+4)
+\= (12 + 9.9 + 8) / 10 = 29.9 / 10 = **2.99**
+
+---
+
+### 📊 Weighted Average Percentage
+
+**Formula:**
+Weighted Percentage = (Σ (Marks × Credit)) / (Σ Credits)
+
+**Example:**
+Subjects:
+
+* Sub1: Marks = 85, Credit = 4
+* Sub2: Marks = 78, Credit = 3
+* Sub3: Marks = 90, Credit = 3
+
+Weighted % = \[(85×4) + (78×3) + (90×3)] / (4+3+3)
+\= (340 + 234 + 270) / 10 = 844 / 10 = **84.4%**
+
+---
+
+### 🔁 Convert 10-Point CGPA to Percentage
+
+**Formula:**
+Percentage = (CGPA - 0.75) × 10
+
+**Example:**
+If CGPA = 8.5
+Percentage = (8.5 - 0.75) × 10 = **77.5%**
+
+---
+
+### 🔁 Convert 4-Point GPA to Percentage
+
+**Formula (India Standard):**
+Percentage = GPA × 25
+
+**Example:**
+If GPA = 3.2
+Percentage = 3.2 × 25 = **80%**
+
+---
+
+### 📘 Grade Point Keys
+
+#### 🎓 10-Point System:
 
 | Grade | Point |
 | ----- | ----- |
@@ -67,7 +144,7 @@ A retro-style, semester-wise CGPA & Percentage calculator designed to make acade
 | D     | 4     |
 | F     | 0     |
 
-### 🇺🇸 4-Point System
+#### 🇺🇸 4-Point US System:
 
 | Grade | Point |
 | ----- | ----- |
