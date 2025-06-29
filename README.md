@@ -4,6 +4,8 @@
 
 A retro-style, semester-wise CGPA & Percentage calculator designed to make academic tracking engaging. Powered by animated visuals and flexible grading systems, it's perfect for students who want an interactive way to manage their grades.
 
+Now live on the [Chrome Web Store](https://chromewebstore.google.com/detail/cgpa-calculator/lcafpoknclclgbkcggbenmjjlfekmlpn)
+
 ---
 
 ## 🚀 Features
