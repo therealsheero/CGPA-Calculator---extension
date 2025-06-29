@@ -13,8 +13,8 @@ Now live on the [Chrome Web Store](https://chromewebstore.google.com/detail/cgpa
 * 🎮 **Retro Pixel UI**: Inspired by classic arcade games.
 * 📚 **Multi-Grading System Support**:
 
-  * ✅ 10-Point CGPA System (Indian Universities)
-  * ✅ 4-Point GPA System (US Universities)
+  * ✅ 10-Point CGPA System
+  * ✅ 4-Point GPA System
   * ✅ Percentage-Based Weighted Calculator
 * 🧮 **Dynamic Subject & Semester Input**: Add custom number of subjects per semester.
 * 🟰 **Convert to Percentage**: Convert your GPA into percentage easily.
@@ -37,9 +37,9 @@ Now live on the [Chrome Web Store](https://chromewebstore.google.com/detail/cgpa
 1. Launch the extension from your Chrome toolbar.
 2. Select your **grading system**:
 
-   * 📘 10-Point CGPA
-   * 🌍 4-Point GPA
-   * 🎯 Weighted Percentage
+   *  10-Point CGPA
+   *  4-Point GPA
+   *  Weighted Percentage
 3. Enter the number of semesters.
 4. For each semester:
 
@@ -49,7 +49,7 @@ Now live on the [Chrome Web Store](https://chromewebstore.google.com/detail/cgpa
 6. Click **“Progress Report”** to view your chart.
 7. Use **“Download”** to save your full PDF report.
 8. Go **“Back”** or **“Clear All”** anytime to reset or edit data.
-9. Click **"Convert to Percntage"** to convert GPA into percentage.
+9. Click **"Convert to Percentage"** to convert GPA into percentage.
 
 ---
 
