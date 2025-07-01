@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "CGPA Calculator",
   "version": "1.0",
-  "description": "This Chrome extension helps you compute your CGPA semester-by-semester using subject-wise credits and grades. Based on 10-point CGPA.",
+  "description": "This Chrome extension helps you compute your CGPA semester-by-semester using subject-wise credits and grades. Based on multiple grade point calculation systems.",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
